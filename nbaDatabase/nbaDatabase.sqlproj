@@ -57,4 +57,9 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Player.sql" />
+    <Build Include="Team.sql" />
+    <Build Include="Season.sql" />
+  </ItemGroup>
 </Project>
