@@ -1,33 +1,33 @@
 ﻿CREATE TABLE [dbo].[Player]
 (
    PLAYER_ID		 INTEGER  NOT NULL PRIMARY KEY
-  ,PLAYER_NAME		 VARCHAR(19)
-  ,AGE               INTEGER 
-  ,GP                INTEGER 
-  ,W                 INTEGER 
-  ,L                 INTEGER 
-  ,W_PCT             NUMERIC(5,3)
-  ,MIN               NUMERIC(4,1)
-  ,FGM               NUMERIC(3,1)
-  ,FGA               NUMERIC(4,1)
-  ,FG_PCT            NUMERIC(5,3)
-  ,FG3M              NUMERIC(3,1)
-  ,FG3A              NUMERIC(3,1)
-  ,FG3_PCT           NUMERIC(5,3)
-  ,FTM               NUMERIC(3,1)
-  ,FTA               NUMERIC(4,1)
-  ,FT_PCT            NUMERIC(5,3)
-  ,OREB              NUMERIC(3,1)
-  ,DREB              NUMERIC(4,1)
-  ,REB               NUMERIC(4,1)
-  ,AST               NUMERIC(4,1)
-  ,TOV               NUMERIC(3,1)
-  ,STL               NUMERIC(3,1)
-  ,BLK               NUMERIC(3,1)
-  ,BLKA              NUMERIC(3,1)
-  ,PF                NUMERIC(3,1)
-  ,PFD               NUMERIC(3,1)
-  ,PTS               NUMERIC(4,1)
-  ,PLUS_MINUS        NUMERIC(4,1)
-  ,NBA_FANTASY_PTS   NUMERIC(4,1)
+  ,PLAYER_NAME		 VARCHAR(19) NOT NULL
+  ,AGE               INTEGER NOT NULL 
+  ,GP                INTEGER NOT NULL 
+  ,W                 INTEGER NOT NULL 
+  ,L                 INTEGER NOT NULL 
+  ,W_PCT             NUMERIC(5,3) NOT NULL
+  ,MINS               NUMERIC(4,1) NOT NULL
+  ,FGM               NUMERIC(3,1) NOT NULL
+  ,FGA               NUMERIC(4,1) NOT NULL
+  ,FG_PCT            NUMERIC(5,3) NOT NULL
+  ,FG3M              NUMERIC(3,1) NOT NULL
+  ,FG3A              NUMERIC(3,1) NOT NULL
+  ,FG3_PCT           NUMERIC(5,3) NOT NULL
+  ,FTM               NUMERIC(3,1) NOT NULL
+  ,FTA               NUMERIC(4,1) NOT NULL
+  ,FT_PCT            NUMERIC(5,3) NOT NULL
+  ,OREB              NUMERIC(3,1) NOT NULL
+  ,DREB              NUMERIC(4,1) NOT NULL
+  ,REB               NUMERIC(4,1) NOT NULL
+  ,AST               NUMERIC(4,1) NOT NULL
+  ,TOV               NUMERIC(3,1) NOT NULL
+  ,STL               NUMERIC(3,1) NOT NULL
+  ,BLK               NUMERIC(3,1) NOT NULL
+  ,BLKA              NUMERIC(3,1) NOT NULL
+  ,PF                NUMERIC(3,1) NOT NULL
+  ,PFD               NUMERIC(3,1) NOT NULL
+  ,PTS               NUMERIC(4,1) NOT NULL
+  ,PLUS_MINUS        NUMERIC(4,1) NOT NULL
+  ,NBA_FANTASY_PTS   NUMERIC(4,1) NOT NULL
 )

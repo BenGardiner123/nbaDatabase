@@ -61,5 +61,6 @@
     <Build Include="Player.sql" />
     <Build Include="Team.sql" />
     <Build Include="Season.sql" />
+    <Build Include="playerData201112.sql" />
   </ItemGroup>
 </Project>
